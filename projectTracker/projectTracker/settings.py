@@ -41,7 +41,9 @@ INSTALLED_APPS = [
     'rest_framework',
     'corsheaders',
     'knox',
-    'useraccount'
+    'useraccount',
+    'chat',
+    'feed'
 ]
 
 REST_FRAMEWORK={
@@ -137,7 +139,7 @@ CORS_ALLOWED_ORIGINS = [
 CORS_ALLOW_METHODS = [
     'GET',
     'POST',
-    'DELETE'
+    'DELETE',
     'OPTIONS',
     'PATCH',
     'PUT',
